@@ -5,7 +5,7 @@ class TestLinting(unittest.TestCase):
     def test_pylint(self):
         # Run Pylint as a subprocess
         pylint_output = subprocess.run(
-            ['pylint', 'your_module.py', '--output-format=text'],
+            ['pylint', 'eliza.py', '--output-format=text'],
             capture_output=True,
             text=True
         ).stdout
