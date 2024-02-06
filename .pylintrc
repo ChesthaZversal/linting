@@ -96,7 +96,7 @@ enable=
 # --disable=W"
 
 disable=
-    
+    bad-builtin
     attribute-defined-outside-init,
     invalid-name,
     missing-docstring,
