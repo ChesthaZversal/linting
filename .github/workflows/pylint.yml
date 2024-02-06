@@ -43,6 +43,9 @@ jobs:
           pip install pylint==3.0.2
       # - name: Copy .pylintrc to working directory
       #   run: cp .pylintrc $GITHUB_WORKSPACE
+      - name: Run linting tests
+        run: |
+          python -m unittest unittest.py
       - name: Analysing the code with pylint
         run: |
           pylint --rcfile=$GITHUB_WORKSPACE/.pylintrc $(git ls-files '*.py')
