@@ -16,7 +16,7 @@ class TestLinting(unittest.TestCase):
         pylint_score = float(pylint_output.split('Your code has been rated at ')[1].split('/')[0].strip())
         
         # Check if Pylint score is more than 75
-        self.assertGreaterEqual(pylint_score, 75, "Pylint score is less than 75")
+        self.assertGreaterEqual(pylint_score, 7.5, "Pylint score is less than 7.5")
 
 if __name__ == '__main__':
     unittest.main()
