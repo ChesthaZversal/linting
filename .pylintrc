@@ -96,7 +96,7 @@ enable=
 # --disable=W"
 
 disable=
-    line-too-long
+    
     attribute-defined-outside-init,
     invalid-name,
     missing-docstring,
