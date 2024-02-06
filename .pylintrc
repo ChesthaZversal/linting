@@ -96,6 +96,7 @@ enable=
 # --disable=W"
 
 disable=
+    W0141
     bad-builtin
     attribute-defined-outside-init,
     invalid-name,
