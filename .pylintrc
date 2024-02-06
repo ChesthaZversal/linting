@@ -96,6 +96,7 @@ enable=
 # --disable=W"
 
 disable=
+    unused-argument
     unknown-option-value
     redefined-outer-name
     bad-builtin
