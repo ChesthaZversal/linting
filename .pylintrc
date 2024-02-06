@@ -96,6 +96,7 @@ enable=
 # --disable=W"
 
 disable=
+    unknown-option-value
     redefined-outer-name
     bad-builtin
     attribute-defined-outside-init,
