@@ -96,10 +96,7 @@ enable=
 # --disable=W"
 
 disable=
-    unused-argument
-    unknown-option-value
-    redefined-outer-name
-    bad-builtin
+    line-too-long
     attribute-defined-outside-init,
     invalid-name,
     missing-docstring,
