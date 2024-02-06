@@ -41,8 +41,8 @@ jobs:
       - name: Install dependencies
         run: |
           pip install pylint
-      - name: Copy .pylintrc to working directory
-        run: cp .pylintrc $GITHUB_WORKSPACE
+      # - name: Copy .pylintrc to working directory
+      #   run: cp .pylintrc $GITHUB_WORKSPACE
       - name: Analysing the code with pylint
         run: |
           pylint --rcfile=$GITHUB_WORKSPACE/.pylintrc $(git ls-files '*.py')
