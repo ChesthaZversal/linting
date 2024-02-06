@@ -1,3 +1,4 @@
 disable = 
     missing-module-docstring
+    no-else-return
     
