@@ -45,7 +45,7 @@ jobs:
       #   run: cp .pylintrc $GITHUB_WORKSPACE
       - name: Run linting tests
         run: |
-          python -m unittest unittest.py
+          python -m unittest pylinttest.py
       - name: Analysing the code with pylint
         run: |
           pylint --rcfile=$GITHUB_WORKSPACE/.pylintrc $(git ls-files '*.py')
