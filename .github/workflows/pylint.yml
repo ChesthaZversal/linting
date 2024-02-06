@@ -40,7 +40,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - name: Install dependencies
         run: |
-          pip install pylint
+          pip install pylint==3.0.2
       # - name: Copy .pylintrc to working directory
       #   run: cp .pylintrc $GITHUB_WORKSPACE
       - name: Analysing the code with pylint
